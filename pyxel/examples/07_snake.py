@@ -153,7 +153,7 @@ class Snake:
 
     def death_event(self):
         """Kill the game (bring up end screen)."""
-        self.death = True  # Check having run into self
+        self.death = True  # Check having run into 
 
         pyxel.stop()
         pyxel.play(0, 1)
